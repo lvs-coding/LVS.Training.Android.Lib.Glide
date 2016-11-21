@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         //Initialize ImageView
         ImageView imageView = (ImageView) findViewById(R.id.imageView);
         ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
-        ImageView imageView3 = (ImageView) findViewById(R.id.imageView3);
 
         //Loading image from below url into imageView
         Glide.with(this)
